@@ -1,4 +1,4 @@
-# test
+# CA_project1
 
 题目：根据经纬度坐标计算两车距离、方位角，并将计算结果进行传输。  
 要求：  
@@ -14,3 +14,5 @@
 代码管理：Git  
 提交时间：2020.11.10  
 提交方式：在 https://github.com/ 注册账号并上传提交  
+
+[matlib下载教程](https://blog.csdn.net/weixin_43974113/article/details/91863154)  
