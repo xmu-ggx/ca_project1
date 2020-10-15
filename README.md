@@ -15,4 +15,4 @@
 提交时间：2020.11.10  
 提交方式：在 https://github.com/ 注册账号并上传提交  
 
-[matlib下载教程](https://blog.csdn.net/weixin_43974113/article/details/91863154)  
+[matlib下载安装教程](https://blog.csdn.net/weixin_43974113/article/details/91863154)  
