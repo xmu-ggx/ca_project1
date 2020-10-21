@@ -16,3 +16,4 @@
 提交方式：在 https://github.com/ 注册账号并上传提交  
 
 [matlib下载安装教程](https://blog.csdn.net/weixin_43974113/article/details/91863154)  
+[vscode 环境搭建](https://www.cnblogs.com/baihualiaoluan/p/10661669.html)  
