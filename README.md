@@ -17,3 +17,4 @@
 
 [matlib下载安装教程](http://www.360doc.com/content/16/1005/11/27698033_595899862.shtml)  
 [vscode 环境搭建](https://www.cnblogs.com/baihualiaoluan/p/10661669.html)  
+[haversin 算法](https://www.cnblogs.com/zhoug2020/p/8993750.html)  
