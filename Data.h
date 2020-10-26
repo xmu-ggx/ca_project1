@@ -9,6 +9,8 @@
 
 // 创建保存经纬度信息的类
 // 经度：longitude; 纬度：latitude;
+#include <iostream>
+using namespace std;
 
 class Data
 {
@@ -16,9 +18,34 @@ class Data
             
         float longitude;
         float latitude;
-        Data(float , float);
-        ~Data();
-        int dataShow();
+        Data();
+        Data(double , double);
+        void display();
 
     private:      
 };
+
+
+
+
+
+
+
+
+Data::Data()
+{
+    cout << "moren gouzao" << endl;
+}
+
+Data::Data(double x, double y)
+{
+    cout << "daican gouzao" << endl;
+    longitude = x;
+    latitude = y;
+}
+
+void Data::display()
+{
+    cout << "longitude: " << longitude << "\t" << "latitude: " << latitude << endl;
+    return;
+}

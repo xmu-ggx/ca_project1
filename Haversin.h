@@ -12,15 +12,3 @@
 
 #include <iostream>
 
-
-class Data
-{
-    private:
-        float longitude;
-        float latitude;
-
-
-    public:
-        Data();
-        ~Data();
-}
