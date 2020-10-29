@@ -21,15 +21,8 @@ class Data
         Data();
         Data(double , double);
         void display();
-
-    private:      
+   
 };
-
-
-
-
-
-
 
 
 Data::Data()
