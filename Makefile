@@ -1,8 +1,13 @@
 
+all : distanceCal
+	pass
+
 # which compiler
+
 CC = gcc
 
+distaceCal : main.o
+	$(CC) -c  main.c
 
-distanceCalculation :  pass 
-
-angleCalculation : pass
+main.o : data.h 
+	$(CC) -c data.h
