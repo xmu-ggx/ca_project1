@@ -19,4 +19,5 @@
 [vscode 环境搭建](https://www.cnblogs.com/baihualiaoluan/p/10661669.html)  
 [haversin算法 根据经纬度计算距离](https://www.cnblogs.com/zhoug2020/p/8993750.html)  
 [GPS轨迹拟合--根据经纬度计算距离和方向角](https://blog.csdn.net/qq_39609900/article/details/85109265)  
+[方位角的计算](https://wenku.baidu.com/view/ceec18c303768e9951e79b89680203d8cf2f6ac0.html)  
 [ASN.1概述及数据结构详解](https://blog.csdn.net/qq_33336155/article/details/54563449)  
