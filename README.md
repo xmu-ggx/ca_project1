@@ -22,5 +22,5 @@
 [方位角的计算](https://wenku.baidu.com/view/ceec18c303768e9951e79b89680203d8cf2f6ac0.html)  
 [算法参考--java](https://www.cnblogs.com/leejuan/p/5552460.html)  
 [算法参考--c++](https://blog.csdn.net/yugemengjing/article/details/96708834)  
-[simulink自动代码生成](https://blog.csdn.net/xujiaofu6181/article/details/80416597)  
+[simulink自动代码生成](https://blog.csdn.net/weixin_41695564/article/details/80751543)  
 [ASN.1概述及数据结构详解](https://blog.csdn.net/qq_33336155/article/details/54563449)  
