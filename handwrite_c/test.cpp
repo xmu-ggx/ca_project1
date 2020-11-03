@@ -21,5 +21,7 @@ int main()
 
 
     cout << "testing angle_cal function--------" << endl;
+    cout << angle_cal(test_x1, test_x2, test_y1, test_y2) <<endl;
+    cout << "north direction test!  " << angle_cal(30.0, 20.0, 30.0, 40.0) <<endl;  // 正北
     return 0;
 }

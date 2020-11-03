@@ -29,7 +29,6 @@ data::~data()
 {
 }
 
-
 void data::display()
 {
     cout << "longitude: " << longitude << "\t" << "latitude: " << latitude << endl;
