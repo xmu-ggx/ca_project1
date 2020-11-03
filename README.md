@@ -26,3 +26,4 @@
 [Tcp/Udp等协议的数据包格式](https://blog.csdn.net/kallen_ding/article/details/38490233)  
 [Linux环境下make和makefile详解](https://www.cnblogs.com/skyofbitbit/p/3651380.html)  
 [ASN.1概述及数据结构详解](https://blog.csdn.net/qq_33336155/article/details/54563449)  
+[利用开源ASN1C库实现asn.1的编解码](https://blog.csdn.net/zh1204190329/article/details/77979630)
