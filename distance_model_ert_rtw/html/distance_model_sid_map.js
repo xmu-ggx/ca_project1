@@ -1,0 +1,30 @@
+function RTW_SidParentMap() {
+    this.sidParentMap = new Array();
+    this.sidParentMap["distance_model:28"] = "distance_model";
+    this.sidParentMap["distance_model:29"] = "distance_model";
+    this.sidParentMap["distance_model:30"] = "distance_model";
+    this.sidParentMap["distance_model:31"] = "distance_model";
+    this.sidParentMap["distance_model:25"] = "distance_model";
+    this.sidParentMap["distance_model:8"] = "distance_model";
+    this.sidParentMap["distance_model:10"] = "distance_model";
+    this.sidParentMap["distance_model:21"] = "distance_model";
+    this.sidParentMap["distance_model:22"] = "distance_model";
+    this.sidParentMap["distance_model:11"] = "distance_model";
+    this.sidParentMap["distance_model:12"] = "distance_model";
+    this.sidParentMap["distance_model:17"] = "distance_model";
+    this.sidParentMap["distance_model:18"] = "distance_model";
+    this.sidParentMap["distance_model:7"] = "distance_model";
+    this.sidParentMap["distance_model:13"] = "distance_model";
+    this.sidParentMap["distance_model:6"] = "distance_model";
+    this.sidParentMap["distance_model:5"] = "distance_model";
+    this.sidParentMap["distance_model:14"] = "distance_model";
+    this.sidParentMap["distance_model:19"] = "distance_model";
+    this.sidParentMap["distance_model:20"] = "distance_model";
+    this.sidParentMap["distance_model:23"] = "distance_model";
+    this.sidParentMap["distance_model:24"] = "distance_model";
+    this.sidParentMap["distance_model:15"] = "distance_model";
+    this.sidParentMap["distance_model:16"] = "distance_model";
+    this.sidParentMap["distance_model:32"] = "distance_model";
+    this.getParentSid = function(sid) { return this.sidParentMap[sid];}
+}
+    RTW_SidParentMap.instance = new RTW_SidParentMap();
