@@ -1,0 +1,7 @@
+DateTest DEFINITIONS ::=BEGIN
+    Data ::=SEQUENCE{
+        distane REAL,
+        angle REAL
+
+}
+END
