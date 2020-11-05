@@ -2,8 +2,6 @@ function CodeMetrics() {
 	 this.metricsArray = {};
 	 this.metricsArray.var = new Array();
 	 this.metricsArray.fcn = new Array();
-	 this.metricsArray.var["rtM_"] = {file: "C:\\Users\\lenovo\\Desktop\\ca_project1\\model_new_ert_rtw\\model_new.c",
-	size: 8};
 	 this.metricsArray.var["rtU"] = {file: "C:\\Users\\lenovo\\Desktop\\ca_project1\\model_new_ert_rtw\\model_new.c",
 	size: 32};
 	 this.metricsArray.var["rtY"] = {file: "C:\\Users\\lenovo\\Desktop\\ca_project1\\model_new_ert_rtw\\model_new.c",

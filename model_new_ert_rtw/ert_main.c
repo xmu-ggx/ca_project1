@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'model_new'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.4
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Thu Nov 05 14:57:20 2020
+ * C/C++ source code generated on : Thu Nov 05 17:47:24 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -40,7 +40,6 @@ void rt_OneStep(void)
 
   /* Check for overrun */
   if (OverrunFlag) {
-    rtmSetErrorStatus(rtM, "Overrun");
     return;
   }
 
@@ -88,14 +87,22 @@ int_T main(int_T argc, const char *argv[])
          "Generated ERT main won't simulate model step behavior. "
          "To change this behavior select the 'MAT-file logging' option.\n");
   fflush((NULL));
-  while (rtmGetErrorStatus(rtM) == (NULL)) {
+  while (((void*) 0) == (NULL)) {
     /*  Perform other application tasks here */
   }
+
+  /* The option 'Remove error status field in real-time model data structure'
+   * is selected, therefore the following code does not need to execute.
+   */
+#if 0
 
   /* Disable rt_OneStep() here */
 
   /* Terminate model */
   model_new_terminate();
+
+#endif
+
   return 0;
 }
 

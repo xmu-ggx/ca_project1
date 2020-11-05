@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'model_new'.
  *
- * Model version                  : 1.1
+ * Model version                  : 1.4
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Thu Nov 05 14:57:20 2020
+ * C/C++ source code generated on : Thu Nov 05 17:47:24 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)

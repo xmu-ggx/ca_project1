@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'model_new'. 
 ## 
 ## Makefile     : model_new.mk
-## Generated on : Thu Nov 05 14:57:26 2020
+## Generated on : Thu Nov 05 17:47:31 2020
 ## MATLAB Coder version: 3.2 (R2016b)
 ## 
 ## Build Info:
