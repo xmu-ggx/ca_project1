@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "asn_data",
-                "distance_model_ert_rtw"
+                "model_new_ert_rtw"
             ],
             "defines": [
                 "_DEBUG",
