@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'model_new'.
  *
- * Model version                  : 1.4
+ * Model version                  : 1.5
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Thu Nov 05 17:47:24 2020
+ * C/C++ source code generated on : Fri Nov 06 16:13:33 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -39,15 +39,10 @@ typedef struct {
   real_T Out2;                         /* '<Root>/Out2' */
 } ExtY;
 
-/* External inputs (root inport signals with auto storage) */
-extern ExtU rtU;
-
-/* External outputs (root outports fed by signals with auto storage) */
-extern ExtY rtY;
 
 /* Model entry point functions */
 extern void model_new_initialize(void);
-extern ExtY model_new_step(ExtU, ExtY);
+ExtY model_new_step(ExtU, ExtY);
 extern void model_new_terminate(void);
 
 /*-
@@ -84,14 +79,19 @@ extern void model_new_terminate(void);
 
 
 
+
+
+
+
+
 /*
  * File: model_new.c
  *
  * Code generated for Simulink model 'model_new'.
  *
- * Model version                  : 1.4
+ * Model version                  : 1.5
  * Simulink Coder version         : 8.11 (R2016b) 25-Aug-2016
- * C/C++ source code generated on : Thu Nov 05 17:47:24 2020
+ * C/C++ source code generated on : Fri Nov 06 16:13:33 2020
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -102,7 +102,13 @@ extern void model_new_terminate(void);
  */
 
 
+/* External inputs (root inport signals with auto storage) */
+ExtU rtU;
 
+/* External outputs (root outports fed by signals with auto storage) */
+ExtY rtY;
+
+/* Model step function */
 ExtY model_new_step(ExtU rtU, ExtY rtY)
 {
   real_T rtb_Subtract2;
@@ -269,7 +275,7 @@ ExtY model_new_step(ExtU rtU, ExtY rtY)
     rtY.Out2 = 0.0;
 
     /* End of Outputs for SubSystem: '<Root>/If Action Subsystem' */
-  } else if ((rtb_Product1 == 0.0) && (rtb_dla > 0.0)) {
+  } else if ((rtb_Product1 == 0.0) && (rtb_dla < 0.0)) {
     /* Outputs for IfAction SubSystem: '<Root>/If Action Subsystem1' incorporates:
      *  ActionPort: '<S2>/Action Port'
      */
