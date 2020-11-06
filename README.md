@@ -31,6 +31,7 @@
   
 [Tcp/Udp等协议的数据包格式](https://blog.csdn.net/kallen_ding/article/details/38490233)  
 [socket 原理讲解](https://blog.csdn.net/pashanhu6402/article/details/96428887)  
+[socket编程头文件和常用函数](https://blog.csdn.net/xsl1990/article/details/8270759)  
   
 [Linux环境下make和makefile详解](https://www.cnblogs.com/skyofbitbit/p/3651380.html)  
  
