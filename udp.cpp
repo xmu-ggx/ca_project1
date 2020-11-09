@@ -6,7 +6,7 @@ using namespace std;
 
 /*
 * ipv4 : 192.168.117.128      use ifconfig to search
-* port = 4000
+* port : 4000
 */
 
 
@@ -14,6 +14,7 @@ using namespace std;
 
 int send()
 {
+    int sf = socket(AF_INET, SOCK_DGRAM, 0);
 
     return 0;
 }
@@ -24,6 +25,7 @@ int send()
 // server func
 int receive()
 {
+    
 
     return 0;
 }
