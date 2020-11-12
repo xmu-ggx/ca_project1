@@ -34,5 +34,6 @@
 [socket编程头文件和常用函数](https://blog.csdn.net/xsl1990/article/details/8270759)  
 [ubuntu upd通讯实现](https://blog.csdn.net/zhngyue123/article/details/108900440)  
   
+[Makefile Guide](https://blog.csdn.net/weixin_38391755/article/details/80380786)  
 [Linux环境下make和makefile详解](https://www.cnblogs.com/skyofbitbit/p/3651380.html)  
  
