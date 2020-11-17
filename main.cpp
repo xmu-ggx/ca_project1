@@ -1,6 +1,7 @@
 #include <iostream>
 #include "model_new.h"
 #include "Data.h"
+#include "client.h"
 
 using namespace std;
 
@@ -19,14 +20,14 @@ int main()
     cout << "please input the local data of two points: " << endl;
     cin >> rtU.In1 >> rtU.In2 >> rtU.In3 >> rtU.In4;
     res = model_new_step(rtU, rtY);  // 算法实现函数
-    cout << res.Out1 << endl;
-    cout << res.Out2 << endl;
+
 
     data.distane = res.Out1;
     data.angle = res.Out2;
 
-    cout << "data elements-------------" << endl;
-    cout << data.distane << "\t" << data.angle << endl;
+    cout << '\t' << "angle: \t" << data.angle << "\t distance: \t" << data.distane << endl;
+
+    send(data);
 
     return 0;
 }
