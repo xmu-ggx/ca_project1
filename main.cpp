@@ -17,7 +17,7 @@ int main()
     // rtU.In3 = 122.498;
     // rtU.In4 = 29.004;
 
-    cout << "please input the local data of two points: " << endl;
+    cout << "please input the location data of two points: " << endl;
     cin >> rtU.In1 >> rtU.In2 >> rtU.In3 >> rtU.In4;
     res = model_new_step(rtU, rtY);  // 算法实现函数
 
